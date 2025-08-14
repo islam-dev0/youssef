@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>يوسف مصطفى - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@300;400;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="profile-card">
+                <div class="profile-image">
+                    <img src="yy.jpg" alt="يوسف مصطفى">
+                    <div class="glow-effect"></div>
+                </div>
+                <div class="floating-particles"></div>
+            </div>
+            
+            <div class="hero-text">
+                <h1 class="hero-name" id="heroName"></h1>
+                <p class="hero-bio" id="heroBio"></p>
+                <div class="social-links">
+                    <a href="#" class="facebook-link">
+                        <i class="fab fa-facebook-f"></i>
+                        <span>تابعني على فيسبوك</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cards Section -->
+    <section class="cards-section">
+        <div class="cards-grid">
+            <!-- Personal Information Card -->
+            <div class="card" data-card="personal">
+                <div class="card-content">
+                    <div class="card-icon">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <h3>المعلومات الشخصية</h3>
+                    <p>اكتشف معلوماتي الشخصية</p>
+                </div>
+                <div class="card-glow"></div>
+            </div>
+
+            <!-- Personal Message Card -->
+            <div class="card" data-card="message">
+                <div class="card-content">
+                    <div class="card-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>رسالة شخصية</h3>
+                    <p>أرسل رسالة حب مخصصة</p>
+                </div>
+                <div class="card-glow"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-body" id="modalBody">
+                <!-- Content will be inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
